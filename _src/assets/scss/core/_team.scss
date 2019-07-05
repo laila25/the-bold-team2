@@ -48,3 +48,30 @@
     line-height: 45px;
     text-align: center;
 }
+
+@media all and (min-width:768px) {
+
+    .t-team {
+        color: #099d8d;
+    }
+
+    .team-2 {
+        margin-top: 0;
+    }
+    
+    .team-2 span{
+        position: absolute;
+        top: -50px;
+    }
+    
+    .t-strengths {
+        display: flex;
+    }
+    
+    .t-strengths-content {
+        display: flex;  
+        flex-direction: column;
+        width: 50%;
+    }
+
+}  
