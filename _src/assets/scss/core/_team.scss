@@ -1,0 +1,77 @@
+.team-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    position: relative;
+}
+
+.team-2 span{
+    position: absolute;
+    top: -100px;
+}
+
+.t-team {
+    font-family: Rubik;
+    font-weight: 300;
+    font-size: 24px;
+    color: aqua;
+    line-height: 45px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 16px;
+    color: #54585a;
+    text-align: center;
+    padding: 15px;
+    margin-top: -35px;
+}
+
+.triangle {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    transform: rotate(45deg);
+    margin-bottom: -16px;
+}
+
+.t-strengths {
+    background-color: #b8b8b933;
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+
+.t-strengths-tittle {
+    font-size: 22px;
+    color: #099d8d;
+    line-height: 45px;
+    text-align: center;
+}
+
+@media all and (min-width:768px) {
+
+    .t-team {
+        color: #099d8d;
+    }
+
+    .team-2 {
+        margin-top: 0;
+    }
+    
+    .team-2 span{
+        position: absolute;
+        top: -50px;
+    }
+    
+    .t-strengths {
+        display: flex;
+    }
+    
+    .t-strengths-content {
+        display: flex;  
+        flex-direction: column;
+        width: 50%;
+    }
+
+}  

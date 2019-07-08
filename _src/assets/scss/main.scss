@@ -1,13 +1,9 @@
 @import 'core/header';
-@import 'core/settings';
+@import 'core/team';
 @import 'core/links';
+@import 'core/footer';
 
 body {
 	margin: 0;
-    font-family: open sans;
+	font-family: open sans; 
 }
-@media all and (min-width:1200px) {
-	body {
-		margin: auto;
-	}
-	}
