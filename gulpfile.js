@@ -172,7 +172,7 @@ gulp.task('icons-dist', function(done) {
 gulp.task('default', gulp.series(['clean','html', 'styles','scripts', 'images', 'icons'], function(done) {
   browserSync.init({
     server : {
-      baseDir: './public/'
+      baseDir: './docs/'
     }
   });
   gulp.watch(config.watch.html, gulp.series(['html', 'bs-reload']));
