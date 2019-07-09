@@ -62,24 +62,24 @@ a {
 
 
 @media all and (min-width:768px) {
-
+    
     .menu {
         display: flex;
         justify-content: space-between;
         max-width: 100%;
     }
-
+    
     .title {
         width: 30%;
         height: 60px;
         background-color: #099d8d;
         margin-left: 45px;
     }
-
+    
     h1 {
         text-align: left;
     }
-
+    
     .nav {
         height: 60px;
         max-width: 350px;
@@ -97,7 +97,7 @@ a {
         background-size: cover;
         background-position: center;
     }
-
+    
     .claim {
         opacity: 0.8;
         margin: -100px 0 0 -250px;
@@ -106,22 +106,22 @@ a {
     }
 }
 
-    @media all and (min-width:1200px) {
-
-        .title {       
-            margin-left: 142px;
-        }
-        .nav {
-            margin-right: 138px;
-        }
-        .hero {
+@media all and (min-width:1200px) {
+    
+    .title {       
+        margin-left: 142px;
+    }
+    .nav {
+        margin-right: 138px;
+    }
+    .hero {
         width: 100%;
         display: flex;
         justify-content: flex-start;
-        }
-        
-        .claim {
-    margin-left: 138px;
-    margin-right: 488px;
-        }
     }
+    
+    .claim {
+        margin-left: 138px;
+        margin-right: 488px;
+    }
+}

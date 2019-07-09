@@ -64,8 +64,15 @@
         top: -50px;
     }
     
+    .team-2-content {
+        padding-right: 45px;
+        padding-left: 45px;
+    }
+
     .t-strengths {
         display: flex;
+        padding-right: 45px;
+        padding-left: 45px;
     }
     
     .t-strengths-content {
@@ -75,3 +82,15 @@
     }
 
 }  
+
+@media all and (min-width:1200px) {
+    .team-2-content {
+        padding-right: 138px;
+        padding-left: 138px;
+    }
+
+    .t-strengths {
+        padding-right: 138px;
+        padding-left: 138px;
+    }
+}

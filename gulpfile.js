@@ -83,6 +83,15 @@ gulp.task('images', function(done) {
 });
 
 
+// >> Copy fonts files
+gulp.task('fonts', function(done) {
+  gulp.src(config.fonts.src)
+    .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
+    .pipe(gulp.dest(config.fonts.dest));
+  done();
+});
+
+
 
 // >> Copy icon files
 gulp.task('icons', function(done) {
@@ -157,6 +166,15 @@ gulp.task('images-dist', function(done) {
 });
 
 
+// >> Copy fonts files
+gulp.task('fonts-dist', function(done) {
+  gulp.src(config.fonts.src)
+    .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
+    .pipe(gulp.dest(config.fonts.dist));
+  done();
+});
+
+
 
 // >> Copy icon files
 gulp.task('icons-dist', function(done) {
@@ -169,12 +187,13 @@ gulp.task('icons-dist', function(done) {
 
 
 // > Watchers + BrowserSync server
-gulp.task('default', gulp.series(['clean','html', 'styles','scripts', 'images', 'icons'], function(done) {
+gulp.task('default', gulp.series(['clean','html', 'styles','scripts', 'images', 'icons', 'fonts'], function(done) {
   browserSync.init({
     server : {
       baseDir: './docs/'
     }
   });
+  gulp.watch(config.fonts.src, gulp.series(['fonts', 'bs-reload']));
   gulp.watch(config.watch.html, gulp.series(['html', 'bs-reload']));
   gulp.watch(config.images.src, gulp.series(['images', 'bs-reload']));
   gulp.watch(config.icons.src, gulp.series(['icons', 'bs-reload']));
@@ -186,7 +205,7 @@ gulp.task('default', gulp.series(['clean','html', 'styles','scripts', 'images', 
 
 
 // > Build a production-ready version of your proyect
-gulp.task('docs', gulp.series(['clean-dist','html-dist','styles-dist','scripts-dist', 'images-dist', 'icons-dist'], function(done) {
+gulp.task('docs', gulp.series(['clean-dist','html-dist','styles-dist','scripts-dist', 'images-dist', 'icons-dist', 'fonts-dist'], function(done) {
   console.log('🦄 Build OK!');
   done();
 }));
