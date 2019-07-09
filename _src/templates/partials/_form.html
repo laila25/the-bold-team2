@@ -1,0 +1,35 @@
+<section class="contact-page">
+    <h2 class="contact">CONTACTO</h2>
+    <div class="contact-description">
+        <p class="contact-info">
+            ¡Hola! Si tienes alguna duda, necesitas información sobre nuestros servicios o te has quedado con ganas de que te contemos más sobre nosotras, completa el formulario y nos pondremos en contacto contigo lo antes posible. 
+        </p>
+        <aside class="required">
+            Todos los campos marcados con <span class="blue-star">*</span>
+            son obligatorios
+        </aside>
+    </div>
+
+    <form action="https://formspree.io/amontiaga@gmail.com" method="POST">
+        <label for="Name">Nombre completo <span class="blue-star">*</span></label>
+        <input placeholder="Nombre..." type="text" id="Name" name="Name" required />
+
+        <div class="email-phone_box">
+            <div class="email_box">
+                <label for="Email">Email <span class="blue-star">*</span></label>
+                <input class="email-form" value="nombre.apellidos@mail.com" type="email" id="Email" name="Email" required />
+            </div>
+
+            <div class="phone_box">
+                <label for="Phone">Teléfono</label>
+                <input class="phone-form" placeholder="Ej: 123456789" type="tel" id="Phone" name="Phone" />
+            </div>
+        </div>
+
+        <label for="Message">Mensaje<span class="blue-star">*</span></label>
+        <textarea placeholder="¿Qué necesitas?" name="Message" id="Message" cols="30" rows="10" required></textarea>
+        
+        <input class="buttom" type="submit" value="ENVIAR" />
+
+    </form>
+</section>

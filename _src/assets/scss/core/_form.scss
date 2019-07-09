@@ -1,0 +1,141 @@
+.contact-page {
+    max-width: 100vw; /*Revisar*/
+    text-align: center;
+    padding: 30px 15px 60px 15px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact {
+    font-size: 24px;
+    text-align: center;
+    color: #099d8d;
+    font-family: Rubik;
+}
+
+.contact-info {
+    font-size: 16px;
+    font-family: Open Sans;
+    line-height: 24px;
+    text-align: center;
+    color: #54585a;
+}
+
+.contact-description {
+    margin-bottom: 58px; 
+}
+
+.required {
+    font-size: 12px;
+    line-height: 24px;
+    color: #54585a;
+}
+
+.blue-star {
+    color: #14d9c4;
+}
+
+label {
+    font-size: 14px;
+    color: #54585a;
+    text-align: start;
+    margin-bottom: 5px;
+    height: 19px;
+}
+
+.buttom {
+    background-color: #099d8d;
+    color: white;
+    height: 45px;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+::placeholder {
+    font-size: 14px;
+    font-family: Open Sans;
+}
+
+input {
+    height: 45px;
+    border: 1px solid #b8b8b9;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.email-form {
+    font-size: 14px;
+    padding-left: 15px;
+    font-family: Open Sans;
+    color: #4e5253;
+}
+
+.email-phone_box {
+    display:flex;
+    flex-direction: column;
+}
+
+.phone_box {
+    display:flex;
+    flex-direction: column;
+}
+
+.email_box {
+    display:flex;
+    flex-direction: column;
+}
+
+textarea {
+    border: 1px solid #b8b8b9;
+    padding-top: 11px;
+    padding-left: 15px;
+}
+
+@media all and (min-width:768px) {
+
+    .contact-page {
+        padding-left: 163px;
+        padding-right: 163px;
+    }
+
+    .buttom {
+        width: 206px;
+        align-self: flex-end;
+
+    }
+}
+
+@media all and (min-width:1200px) {
+
+    .contact-page {
+        padding-left: 299px;
+        padding-right: 299px;
+    }
+
+    .buttom {
+        width: 206px;
+        align-self: flex-end;
+    }
+
+    .email-phone_box {
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .email_box {
+        width: 48%;
+    }
+
+    .phone_box {
+        width: 48%;
+        margin-left: 16px;
+    }
+}

@@ -1,0 +1,450 @@
+.hero {
+  background-image: url("../images/fotomuro2.jpg");
+  height: 421px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.claim {
+  background-color: white;
+  margin: 0 0 -100px;
+  padding: 10px;
+  width: 80%;
+}
+
+.menu {
+  width: 100%;
+  background-color: #099d8d;
+  opacity: 0.95;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.link {
+  display: inline-block;
+  margin: 52px;
+}
+
+.nav {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #14d9c4;
+  height: 45px;
+  z-index: 2;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-page {
+  max-width: 100vw;
+ /*Revisar*/
+  text-align: center;
+  padding: 30px 15px 60px 15px;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.contact {
+  font-size: 24px;
+  text-align: center;
+  color: #099d8d;
+  font-family: Rubik;
+}
+
+.contact-info {
+  font-size: 16px;
+  font-family: Open Sans;
+  line-height: 24px;
+  text-align: center;
+  color: #54585a;
+}
+
+.contact-description {
+  margin-bottom: 58px;
+}
+
+.required {
+  font-size: 12px;
+  line-height: 24px;
+  color: #54585a;
+}
+
+.blue-star {
+  color: #14d9c4;
+}
+
+label {
+  font-size: 14px;
+  color: #54585a;
+  text-align: start;
+  margin-bottom: 5px;
+  height: 19px;
+}
+
+.buttom {
+  background-color: #099d8d;
+  color: white;
+  height: 45px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: Open Sans;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+::-webkit-input-placeholder {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+:-ms-input-placeholder {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+::-ms-input-placeholder {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-family: Open Sans;
+}
+
+input {
+  height: 45px;
+  border: 1px solid #b8b8b9;
+  margin-bottom: 15px;
+  padding-left: 15px;
+}
+
+.email-form {
+  font-size: 14px;
+  padding-left: 15px;
+  font-family: Open Sans;
+  color: #4e5253;
+}
+
+.email-phone_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.phone_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.email_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+textarea {
+  border: 1px solid #b8b8b9;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.footer {
+  margin-top: 15px;
+  font-family: Open Sans;
+  text-align: center;
+  font-size: 14px;
+  border-top: solid 1px lightgrey;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.f-team {
+  color: #b8b8b9;
+  line-height: 20px;
+  margin-top: 40px;
+}
+
+.f-link {
+  list-style-type: none;
+  padding: 0;
+}
+
+.f-link-item {
+  color: #54585a;
+  opacity: 0.75;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.footer img {
+  max-width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-ordinal-group: 2;
+  -ms-flex-order: 1;
+  order: 1;
+}
+
+body {
+  margin: auto;
+  font-family: open sans;
+}
+
+@media all and (min-width: 768px) {
+  .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    max-width: 100%;
+  }
+
+  .title {
+    width: 30%;
+    height: 60px;
+    background-color: #099d8d;
+    margin-left: 45px;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  .nav {
+    height: 60px;
+    max-width: 350px;
+    background-color: #099d8d;
+    margin-right: 45px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .hero {
+    background-image: url("../images/WEBHEADER.jpg");
+    height: 421px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .claim {
+    opacity: 0.8;
+    margin: -100px 0 0 -250px;
+    padding: 15 30 15 30px;
+    width: 60%;
+  }
+
+  .contact-page {
+    padding-left: 163px;
+    padding-right: 163px;
+  }
+
+  .buttom {
+    width: 206px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+  }
+
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  .footer img {
+    margin-top: -70px;
+  }
+
+  .f-team {
+    margin-left: 30px;
+    margin-bottom: -5px;
+    margin-top: -30px;
+    -webkit-box-ordinal-group: -1;
+    -ms-flex-order: -2;
+    order: -2;
+  }
+
+  .f-link {
+    text-align: right;
+    line-height: 30px;
+    margin-right: 30px;
+    margin-top: 40px;
+  }
+
+  .footer-img {
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+    margin-left: 30px;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .title {
+    margin-left: 142px;
+  }
+
+  .nav {
+    margin-right: 138px;
+  }
+
+  .hero {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+
+  .claim {
+    margin-left: 138px;
+    margin-right: 488px;
+  }
+
+  .contact-page {
+    padding-left: 299px;
+    padding-right: 299px;
+  }
+
+  .buttom {
+    width: 206px;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+  }
+
+  .email-phone_box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+
+  .email_box {
+    width: 48%;
+  }
+
+  .phone_box {
+    width: 48%;
+    margin-left: 16px;
+  }
+
+  .footer {
+    width: 100vw;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 139px;
+    padding-right: 139px;
+  }
+
+  .footer img {
+    margin-top: -100px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */
