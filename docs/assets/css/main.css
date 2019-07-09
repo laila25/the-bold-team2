@@ -1,5 +1,7 @@
+@charset "UTF-8";
+
 .hero {
-  background-image: url("../images/images/fotomuro2.jpg");
+  background-image: url("/assets/images/fotomuro2.jpg");
   height: 421px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -319,7 +321,7 @@ body {
   }
 
   .hero {
-    background-image: url("../images/images/WEBHEADER.jpg");
+    background-image: url("/assets/images/WEBHEADER.jpg");
     height: 421px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -524,18 +526,10 @@ body {
   .claim {
     margin-left: 138px;
     margin-right: 488px;
-  }
-  
-  /* profiles impar */  
-  
-  .profiles:nth-last-of-type(odd) {
+  }/* profiles impar */  .profiles:nth-last-of-type(odd) {
     margin-left: 138px;
     margin-right: 300px;
-  }
-  
-  /* profilex par */  
-  
-  .profiles:nth-last-of-type(even) {
+  }/* profilex par */  .profiles:nth-last-of-type(even) {
     margin-left: 300px;
     margin-right: 138px;
   }
