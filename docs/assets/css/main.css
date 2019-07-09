@@ -1,12 +1,5 @@
-<<<<<<< HEAD
 .hero {
   background-image: url("../images/images/fotomuro2.jpg");
-=======
-@charset "UTF-8";
-
-.hero {
-  background-image: url("/_src/assets/images/fotomuro2.jpg");
->>>>>>> 42177428c8f46ca13c4dc56479be6dedf28bd437
   height: 421px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -326,11 +319,7 @@ body {
   }
 
   .hero {
-<<<<<<< HEAD
     background-image: url("../images/images/WEBHEADER.jpg");
-=======
-    background-image: url("/_src/assets/images/WEBHEADER.jpg");
->>>>>>> 42177428c8f46ca13c4dc56479be6dedf28bd437
     height: 421px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -535,12 +524,18 @@ body {
   .claim {
     margin-left: 138px;
     margin-right: 488px;
-<<<<<<< HEAD
-=======
-  }/* profiles impar */  .profiles:nth-last-of-type(odd) {
+  }
+  
+  /* profiles impar */  
+  
+  .profiles:nth-last-of-type(odd) {
     margin-left: 138px;
     margin-right: 300px;
-  }/* profilex par */  .profiles:nth-last-of-type(even) {
+  }
+  
+  /* profilex par */  
+  
+  .profiles:nth-last-of-type(even) {
     margin-left: 300px;
     margin-right: 138px;
   }
@@ -560,7 +555,6 @@ body {
 
   .names {
     padding-bottom: 0;
->>>>>>> 42177428c8f46ca13c4dc56479be6dedf28bd437
   }
 
   .footer {
