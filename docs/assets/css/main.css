@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .hero {
-  background-image: url("assets/images/fotomuro2.jpg");
+  background-image: url("../images/fotomuro2.jpg");
   height: 421px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -321,7 +321,7 @@ body {
   }
 
   .hero {
-    background-image: url("assets/images/WEBHEADER.jpg");
+    background-image: url("../images/WEBHEADER.jpg");
     height: 421px;
     display: -webkit-box;
     display: -ms-flexbox;
