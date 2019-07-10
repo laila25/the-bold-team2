@@ -20,7 +20,7 @@ form {
 .contact {
     font-size: 24px;
     text-align: center;
-    color: #099d8d;
+    color: $color-primary;
     font-family: Rubik;
 }
 
@@ -29,7 +29,7 @@ form {
     font-family: Open Sans;
     line-height: 24px;
     text-align: center;
-    color: #54585a;
+    color: $color-text;
 }
 
 .contact-description {
@@ -39,7 +39,7 @@ form {
 .required {
     font-size: 12px;
     line-height: 24px;
-    color: #54585a;
+    color: $color-text;
 }
 
 .blue-star {
@@ -48,15 +48,15 @@ form {
 
 label {
     font-size: 14px;
-    color: #54585a;
+    color: $color-text;
     text-align: start;
     margin-bottom: 5px;
     height: 19px;
 }
 
 .buttom {
-    background-color: #099d8d;
-    color: white;
+    background-color: $color-primary;
+    color: $color-secundary;
     height: 45px;
     margin-top: 30px;
     font-size: 16px;
@@ -72,7 +72,7 @@ label {
 
 input {
     height: 45px;
-    border: 1px solid #b8b8b9;
+    border: 1px solid $color-border-form;
     margin-bottom: 15px;
     padding-left: 15px;
 }
@@ -100,7 +100,7 @@ input {
 }
 
 textarea {
-    border: 1px solid #b8b8b9;
+    border: 1px solid $color-border-form;
     padding-top: 11px;
     padding-left: 15px;
 }
