@@ -79,6 +79,12 @@ a {
  /*Revisar*/
   text-align: center;
   padding: 30px 15px 60px 15px;
+  position: relative;
+}
+
+.contact-page span {
+  position: absolute;
+  top: -70px;
 }
 
 form {
@@ -323,6 +329,11 @@ body {
     padding-right: 163px;
   }
 
+  .contact-page span {
+    position: absolute;
+    top: -30px;
+  }
+
   .buttom {
     width: 206px;
     -ms-flex-item-align: end;
@@ -371,7 +382,7 @@ body {
     order: -1;
     margin-left: 30px;
     position: absolute;
-    top: 50%;
+    top: 90%;
   }
 }
 
