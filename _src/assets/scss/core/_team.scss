@@ -15,14 +15,14 @@
     font-family: Rubik;
     font-weight: 300;
     font-size: 24px;
-    color: aqua;
+    color: $color-primary;
     line-height: 45px;
     text-align: center;
 }
 
 .txt {
     font-size: 16px;
-    color: #54585a;
+    color: $color-text;
     text-align: center;
     padding: 15px;
     margin-top: -35px;
@@ -31,20 +31,20 @@
 .triangle {
     width: 30px;
     height: 30px;
-    background-color: white;
+    background-color: $color-secundary;
     transform: rotate(45deg);
     margin-bottom: -16px;
 }
 
 .t-strengths {
-    background-color: #b8b8b933;
+    background-color: $color-team;
     padding-top: 20px;
     padding-bottom: 35px;
 }
 
 .t-strengths-tittle {
     font-size: 22px;
-    color: #099d8d;
+    color: $color-primary;
     line-height: 45px;
     text-align: center;
 }
@@ -52,7 +52,7 @@
 @media all and (min-width:768px) {
 
     .t-team {
-        color: #099d8d;
+        color: $color-primary;
     }
 
     .team-2 {

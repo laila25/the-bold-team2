@@ -18,7 +18,7 @@
 .about {
     font-family: 'Rubik';
     font-size: 24px;
-    color:#099d8d;
+    color: $color-primary;
     font-weight: 300;
 }
 
@@ -42,7 +42,7 @@
 
 .description {
     font-size: 16px;
-    color: #54585a;
+    color: $color-text;
     padding: 15px;
 }
 
@@ -56,7 +56,7 @@
 
 .items-icons::after {
     content: "·";
-    color: #099d8d;
+    color: $color-primary;
     padding-left: 9px;
 }
 
@@ -72,7 +72,7 @@
 }
 
 .fab, .fas {
-    color: #099d8d;
+    color: $color-primary;
     transition: transform 1s ease-in-out;
 }
 

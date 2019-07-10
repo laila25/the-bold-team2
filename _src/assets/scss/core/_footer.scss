@@ -11,7 +11,7 @@
 }
 
 .f-team {
-    color: #b8b8b9;
+    color: $color-border-form;
     line-height: 20px;
     margin-top: 40px;
 }
@@ -22,7 +22,7 @@
 }
 
 .f-link-item{
-    color: #54585a;
+    color: $color-text;
     opacity: 0.75;
     font-weight: 600;
     text-decoration: none;

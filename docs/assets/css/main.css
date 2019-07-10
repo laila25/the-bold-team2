@@ -100,7 +100,7 @@ a {
   font-family: Rubik;
   font-weight: 300;
   font-size: 24px;
-  color: aqua;
+  color: #099d8d;
   line-height: 45px;
   text-align: center;
 }
@@ -133,16 +133,6 @@ a {
   color: #099d8d;
   line-height: 45px;
   text-align: center;
-}
-
-.link__adalab:hover {
-  background-color: #099d8d;
-  color: #fff;
-}
-
-.link__github:hover {
-  background-color: #CCC;
-  color: #000;
 }/* about us */.about_us {
   width: 100%;
   text-align: center;

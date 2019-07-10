@@ -23,8 +23,8 @@ h2 {
 
 .menu {
     width: 100%;
-    background-color: #099d8d;
-    opacity: 0.95;;
+    background-color: $color-primary;
+    opacity: 0.95;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -33,7 +33,7 @@ h2 {
 
 h1 {
     text-align: center;
-    color: white;
+    color: $color-secundary;
     font-size: 16px;
     line-height: 40px;
 }
@@ -55,7 +55,7 @@ h1 {
     z-index: 2;
 }
 a {
-    color: white;
+    color: $color-secundary;
     font-weight: bold;
     text-decoration:none;
 }
@@ -72,7 +72,7 @@ a {
     .title {
         width: 30%;
         height: 60px;
-        background-color: #099d8d;
+        background-color: $color-primary;
         margin-left: 45px;
     }
     
@@ -83,7 +83,7 @@ a {
     .nav {
         height: 60px;
         max-width: 350px;
-        background-color: #099d8d;
+        background-color: $color-primary;
         margin-right: 45px;
         display: flex;
         justify-content: space-between;
