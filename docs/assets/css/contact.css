@@ -76,15 +76,9 @@ a {
 
 .contact-page {
   max-width: 100vw;
- /*Revisar*/
   text-align: center;
   padding: 30px 15px 60px 15px;
   position: relative;
-}
-
-.contact-page span {
-  position: absolute;
-  top: -70px;
 }
 
 form {
@@ -332,11 +326,6 @@ body {
   .contact-page {
     padding-left: 163px;
     padding-right: 163px;
-  }
-
-  .contact-page span {
-    position: absolute;
-    top: -30px;
   }
 
   .buttom {
