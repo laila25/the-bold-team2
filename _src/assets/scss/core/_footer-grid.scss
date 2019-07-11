@@ -33,16 +33,15 @@
 
 @media all and (min-width:768px) {
     .footer {
+        box-sizing: border-box;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 70px 70px;
         width: 100%;
         margin-bottom: 20px;
+        margin-top: 40px;
         height: 200px;
-    }
-
-
-    .f-team {
-        margin-left: 30px;
+        text-align: left;
+        padding-left: 30px;
     }
     
     .f-link {
@@ -53,19 +52,18 @@
         margin-top: 40px;
     }
     
-  .footer-img {
-      height: 100px;
-  }
+    .footer-img {
+        height: 100px;
+    }
 }
 
 @media all and (min-width:1200px) {
     .footer {
         width: 100vw;
-        box-sizing: border-box;
         padding-left: 139px;    
         padding-right: 139px;
     }
-
+    
     
 }
 

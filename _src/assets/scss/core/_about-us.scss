@@ -23,12 +23,12 @@
 }
 
 .image-container {
-  margin: 0 auto;
-  background: rgb(238, 236, 236);
-  width: 180px;
-  height: 180px;
-  padding: 6px;
-  border-radius: 12px;
+    margin: 0 auto;
+    background: rgb(238, 236, 236);
+    width: 180px;
+    height: 180px;
+    padding: 6px;
+    border-radius: 12px;
 }
 
 
@@ -83,7 +83,7 @@
 /* end about us */
 
 @media all and (min-width:768px) {
-
+    
     /* About Us - 768 - tablet */
     
     .about {
@@ -153,38 +153,37 @@
         padding: 20px;
     }
     
+}
+
+@media all and (min-width:1200px) {
+    
+    
+    /* profiles impar */
+    .profiles:nth-last-of-type(odd) {
+        margin-left: 138px;
+        margin-right: 300px;
+    }
+    /* profilex par */
+    .profiles:nth-last-of-type(even) {
+        margin-left: 300px;
+        margin-right: 138px;
     }
     
-    @media all and (min-width:1200px) {
-        
-    
-        /* profiles impar */
-        .profiles:nth-last-of-type(odd) {
-            margin-left: 138px;
-            margin-right: 300px;
-        }
-        /* profilex par */
-        .profiles:nth-last-of-type(even) {
-            margin-left: 300px;
-            margin-right: 138px;
-        }
-    
-        .profiles:last-of-type {
-            margin-bottom: 60px;
-        }
-    
-        .profiles:first-of-type {
-            margin-top: 60px;
-        }
-    
-        .image-container, img {
-            width: 278px;
-            height: 278px;
-        }
-    
-        .names {
-            padding-bottom: 0;
-        }
-    
+    .profiles:last-of-type {
+        margin-bottom: 60px;
     }
     
+    .profiles:first-of-type {
+        margin-top: 60px;
+    }
+    
+    .image-container, img {
+        width: 278px;
+        height: 278px;
+    }
+    
+    .names {
+        padding-bottom: 0;
+    }
+    
+}

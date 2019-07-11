@@ -104,42 +104,42 @@ textarea {
 }
 
 @media all and (min-width:768px) {
-
+    
     .contact-page {
         padding-left: 163px;
         padding-right: 163px;
     }
-
+    
     .buttom {
         width: 206px;
         align-self: flex-end;
-
+        
     }
 }
 
 @media all and (min-width:1200px) {
-
+    
     .contact-page {
         padding-left: 299px;
         padding-right: 299px;
     }
-
+    
     .buttom {
         width: 206px;
         align-self: flex-end;
     }
-
+    
     .email-phone_box {
         display:flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: space-between;
     }
-
+    
     .email_box {
         width: 48%;
     }
-
+    
     .phone_box {
         width: 48%;
         margin-left: 16px;

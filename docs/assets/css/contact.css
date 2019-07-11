@@ -149,11 +149,6 @@ label {
   font-family: Open Sans;
 }
 
-::-moz-placeholder {
-  font-size: 14px;
-  font-family: Open Sans;
-}
-
 :-ms-input-placeholder {
   font-size: 14px;
   font-family: Open Sans;

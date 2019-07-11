@@ -50,11 +50,11 @@
 }
 
 @media all and (min-width:768px) {
-
+    
     .t-team {
         color: $color-primary;
     }
-
+    
     .team-2 {
         margin-top: 0;
     }
@@ -68,7 +68,7 @@
         padding-right: 45px;
         padding-left: 45px;
     }
-
+    
     .t-strengths {
         display: flex;
         padding-right: 45px;
@@ -80,7 +80,7 @@
         flex-direction: column;
         width: 50%;
     }
-
+    
 }  
 
 @media all and (min-width:1200px) {
@@ -88,7 +88,7 @@
         padding-right: 138px;
         padding-left: 138px;
     }
-
+    
     .t-strengths {
         padding-right: 138px;
         padding-left: 138px;
