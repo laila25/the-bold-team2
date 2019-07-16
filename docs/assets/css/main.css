@@ -1,7 +1,23 @@
 @charset "UTF-8";
 
 .hero {
-  background-image: url("../images/fotomuro2.jpg");
+  background-image: url("../images/fotomuro3.jpg");
+  height: 421px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-contact {
+  background-image: url("../images/fotomuro-contact.jpg");
   height: 421px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,7 +314,23 @@ body {
   }
 
   .hero {
-    background-image: url("../images/WEBHEADER.jpg");
+    background-image: url("../images/WEBHEADER-2.jpg");
+    height: 421px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero-contact {
+    background-image: url("../images/WEBHEADER-contact.jpg");
     height: 421px;
     display: -webkit-box;
     display: -ms-flexbox;
